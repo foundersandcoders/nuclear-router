@@ -1,6 +1,6 @@
 {
   "name": "nuclear-router",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Frontend router for nuclear.js",
   "main": "index.js",
   "scripts": {
