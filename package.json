@@ -1,0 +1,21 @@
+{
+  "name": "nuclear-router",
+  "version": "0.0.1",
+  "description": "Frontend router for nuclear.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "frontend",
+    "nuclear.js",
+    "router",
+    "window-hash",
+    "web"
+  ],
+  "author": "Besart Hoxhaj",
+  "license": "MIT",
+  "devDependencies": {
+    "observ": "^0.2.0"
+  }
+}
