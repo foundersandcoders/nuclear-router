@@ -32,7 +32,7 @@ test("Router globals", function t (assert) {
 
 test("Router globals", function t (assert) {
 
-	window.location.hash = "/user";
+	window.location.hash = "#user";
 
 	var state = {
 		route: observ("")
@@ -56,7 +56,7 @@ test("Router globals", function t (assert) {
 
 test("handler function gets params and query string", function t (assert) {
 
-	window.location.hash = "/user/22?name=bes";
+	window.location.hash = "#/user/22?name=bes";
 
 	var state = {
 		route: observ("")

@@ -15,10 +15,13 @@ function router (state) {
 	var win = window;
 
 	function hash () {
-		if (loc.hash[0] === "/") {
-			return loc.hash;
+
+		var hashString = loc.hash.substring(1);
+		
+		if (hashString[0] === "/") {
+			return hashString;
 		} else {
-			return ('/' + loc.hash);
+			return ('/' + hashString);
 		}
 	}
 
