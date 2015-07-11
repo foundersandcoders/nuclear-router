@@ -1,6 +1,7 @@
 # nuclear-router
 
-Small routing system for nuclear
+Small routing system for [nuclear](https://github.com/foundersandcoders/nuclear).
+Nuclear-router has a really simple API and is really small.
 
 ### Example
 
