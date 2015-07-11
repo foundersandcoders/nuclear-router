@@ -1,10 +1,14 @@
 {
   "name": "nuclear-router",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Frontend router for nuclear.js",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/foundersandcoders/nuclear-router"
   },
   "keywords": [
     "frontend",
