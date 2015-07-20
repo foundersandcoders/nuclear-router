@@ -8,6 +8,8 @@ module.exports = router;
 
 function router (state) {
 
+
+	var state = state;
 	// browsers only
 	if (!window) return;
 
